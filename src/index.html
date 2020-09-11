@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index.min.css">
+    <link rel="stylesheet" href="./css/swiper.min.css">
+    <script src="./js/jquery-1.12.4.min.js"></script>
+    
+    <script src="./js/swiper.min.js"></script>
+    <script src="./js/index.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="head_1">
+            <img src="img/1.png" alt="">
+            <div class="head_2">
+                <ul class="uls">
+                    <li><a href="#">登录</a><span>/</span><a href="#">注册</a></li>
+                    <li><span>|</span><a href="#">收藏本站</a></li>
+                    <li><span>|</span><a href="#">官方网站</a></li>
+                </ul>
+                <form action="" class="forms">
+                    <input type="text" name="" class="txt" value="蛋糕"><input type="button" class="btn" value="搜索">
+                </form>
+            </div>
+        </div>
+    </header>
+
+    <!-- nav -->
+    <div class="nav">
+        <div class="nav_1">
+            <ul>
+                <li><a href="#">首页</a></li>
+                <li><a href="#">商品分类</a></li>
+                <li><a href="#">明星产品</a></li>
+                <li><a href="#">企业采购</a></li>
+                <li><a href="#">品牌故事</a></li>
+                <li><a href="#">购物车</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><a href="#"><img src="img/20200529190440_63427404.jpg" alt=""></a></div>
+          <div class="swiper-slide"><img src="img/20200620221642_31520693.jpg" alt=""></div>
+          <div class="swiper-slide"><img src="img/20200824155130_19809153.jpg" alt=""></div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    <script> 
+        var mySwiper = new Swiper('.swiper-container',{
+            pagination : '.swiper-pagination',
+            paginationElement : 'li',
+            autoplay : 500,
+        loop : true,
+        })
+    </script>
+    
+</body>
+</html>

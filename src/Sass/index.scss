@@ -1,0 +1,63 @@
+@import "public";
+header{
+    width: 100%;
+    height: 120px;
+    background: #B61541;
+    float: left;
+}
+.head_1{
+    width: 980px;
+    height: 120px;
+    margin: 0 auto;
+}
+.head_2 {
+    margin-top: 5px;
+    width: 400px;
+    height: 26px;
+    float: right;
+}
+.uls li{
+    font-size: 13px;
+    float: left;
+}
+.uls li a{
+
+    color: white;
+    margin-right: 5px;
+}
+.uls li span{
+    color: white;
+    margin-right: 5px;
+}
+.head_2 .forms{
+    float: right;
+}
+
+
+
+/* nav */
+
+.nav{
+    width: 100%;
+    height: 30px;
+    background: #FADEB5;
+    overflow: hidden;
+    .nav_1{
+        width: 980px;
+        height: 30px;
+        margin: 0 auto;
+        ul li{
+            float: left;
+            font-size: 14px;
+            width: 16%;
+            text-align: center;
+            line-height: 30px;
+            background: url('../img/3.jpg') no-repeat right;
+            a{
+                color: #8C5B29;
+            }
+        }
+    }
+}
+
+
