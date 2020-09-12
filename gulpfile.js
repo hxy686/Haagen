@@ -25,7 +25,7 @@ function fnImg(){
         .pipe(gulp.dest('./dist/img'))
 }
 function fnWatch(){
-    gulp.watch('./src/js/*.js',fnJs)
+    gulp.watch('./src/js/index.js',fnJs)
     gulp.watch('./src/Sass/*.scss',fnSass)
     gulp.watch('./src/index.html',fnCopy)
 }
