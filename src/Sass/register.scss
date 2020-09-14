@@ -1,1 +1,39 @@
-@import 'public'
+@import 'public';
+
+// 注册
+.box{
+    width: 100%;
+     background: url('../img/background-indeximg.jpg')  no-repeat center top;
+    overflow: hidden;
+    position: relative;
+    padding: 20px 0;
+    .zc{
+        @include size(980px,375px);
+        margin: 100px auto 208px auto;
+        background:#F9F6F1;
+        border: solid 1px #dedede;
+        overflow: hidden;
+        color: #545454;
+        .r-box{
+            margin: 12px 0 35px 14px;
+            font-size: 13px;
+            .txt a{
+                color: #9e002b;
+                font-family: '宋体';
+                font-weight: bold;
+            }
+            .txt span{
+                margin-left: 14px;
+                margin-right: 18px;
+            }
+            h1{
+                font-size: 16px;
+                font-family: '宋体';
+                font-weight: bold;
+                color: #8c5b29;
+                text-align: center;
+                margin: 5px auto 44px auto;
+            }
+        }
+    }
+}
