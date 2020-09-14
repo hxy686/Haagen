@@ -237,3 +237,101 @@ header {
   border-bottom: 1px solid #b49759;
   padding-left: 10px;
 }
+
+footer {
+  width: 100%;
+  min-width: 1000px;
+}
+
+footer .foot-t {
+  overflow: hidden;
+  background: url("../img/footer-buttomimg.jpg") no-repeat left bottom #b61541;
+  padding: 20px 0;
+}
+
+footer .foot-t .wrap {
+  width: 1000px;
+  margin: auto;
+  overflow: hidden;
+}
+
+footer .foot-t .wrap .fleft {
+  float: left;
+}
+
+footer .foot-t .wrap .m-lefts {
+  margin-left: 160px;
+}
+
+footer .foot-t .wrap .m-lefts .rows {
+  margin-top: 5px;
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFF;
+}
+
+footer .foot-t .wrap .m-lefts .rows span {
+  margin-right: 42px;
+}
+
+footer .foot-t .wrap #book_email {
+  margin-left: 56px;
+}
+
+footer .foot-t .wrap .rows.opra img {
+  margin-left: 10px;
+}
+
+footer .foot-t .wrap .opra .order {
+  background: url("../img/emile-imgs.jpg") no-repeat;
+  height: 20px;
+  width: 88px;
+  vertical-align: bottom;
+  cursor: pointer;
+  border: none;
+}
+
+footer .foot-y {
+  background: url("../img/footer_bg.png") repeat-x left top;
+  padding: 18px 0 20px;
+  text-align: center;
+  color: #b49759;
+  font-size: 16px;
+}
+
+footer .foot-y .wrap {
+  width: 1024px;
+  margin: auto;
+  position: relative;
+}
+
+footer .foot-y .wrap .concat {
+  font-size: 14px;
+  margin-top: 15px;
+  color: #b49759;
+}
+
+footer .foot-y .wrap .concat a {
+  margin: 0 25px;
+  color: #b49759;
+}
+
+footer .foot-y .wrap p {
+  font-size: 12px;
+  margin-top: 40px;
+  margin-left: 26px;
+}
+
+footer .foot-y .wrap p .sp {
+  padding-left: 85px;
+}
+
+footer .foot-y .wrap .industryremark {
+  position: absolute;
+  bottom: -3px;
+  left: 30px;
+}
+
+footer .foot-y .wrap .industryremark.industryremark2 {
+  left: 486px;
+}

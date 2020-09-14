@@ -1,4 +1,5 @@
 @import "public";
+//头部
 header{
     width: 100%;
     height: 120px;
@@ -193,5 +194,88 @@ header{
         line-height: 24px;
         border-bottom: 1px solid #b49759;
         padding-left: 10px;
+    }
+}
+
+//底部
+footer{
+    width: 100%;
+    min-width: 1000px;
+    .foot-t{
+        overflow: hidden;
+        background: url('../img/footer-buttomimg.jpg') no-repeat left bottom #b61541;
+        padding: 20px 0;
+        .wrap{
+            width: 1000px;
+            margin: auto;
+            overflow: hidden;
+            .fleft{
+                float: left;
+            }
+            .m-lefts{
+                margin-left: 160px;
+                .rows {
+                    margin-top: 5px;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #FFF;
+                     span {
+                        margin-right: 42px;
+                    }
+                    
+                }
+            }
+            #book_email {
+                margin-left: 56px;
+            }
+            .rows.opra img {
+                margin-left: 10px;
+            }
+            .opra .order {
+                background: url('../img/emile-imgs.jpg') no-repeat;
+                height: 20px;
+                width: 88px;
+                vertical-align: bottom;
+                cursor: pointer;
+                border: none;
+            }
+        }
+    }
+    .foot-y{
+        background: url('../img/footer_bg.png') repeat-x left top;
+        padding: 18px 0 20px;
+        text-align: center;
+        color: #b49759;
+        font-size: 16px;
+        .wrap{
+            width: 1024px;
+            margin: auto;
+            position: relative;
+            .concat{
+                font-size: 14px;
+                margin-top: 15px;
+                color: #b49759;
+                a{
+                    margin: 0 25px;
+                    color: #b49759;
+                }
+            }
+            p{
+                font-size: 12px;
+                margin-top: 40px;
+                margin-left: 26px;
+                .sp{
+                    padding-left: 85px;
+                }
+            }
+            .industryremark {
+                position: absolute;
+                bottom: -3px;
+                left: 30px;
+            }
+            .industryremark.industryremark2 {
+                left: 486px;
+            }
+        }
     }
 }
