@@ -12,56 +12,128 @@
     <script src="./js/index.min.js"></script>
 </head>
 <body>
-    <header>
-        <div class="head_1">
-            <img src="img/1.png" alt="">
-            <div class="head_2">
-                <ul class="uls">
-                    <li><a href="#">登录</a><span>/</span><a href="#">注册</a></li>
-                    <li><span>|</span><a href="#">收藏本站</a></li>
-                    <li><span>|</span><a href="#">官方网站</a></li>
+        <header>
+            <div class="head_1">
+                <img src="img/1.png" alt="">
+                <div class="head_2">
+                    <ul class="uls">
+                        <li><a href="#">登录</a><span>/</span><a href="#">注册</a></li>
+                        <li><span>|</span><a href="#">收藏本站</a></li>
+                        <li><span>|</span><a href="#">官方网站</a></li>
+                    </ul>
+                    <form action="" class="forms">
+                        <input type="text" name="" class="txt" value="蛋糕"><input type="button" class="btn" value="搜索">
+                    </form>
+                </div>
+            </div>
+        </header>
+
+        <!-- nav -->
+        <div class="nav">
+            <div class="nav_1">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li id="spfl"><a href="#">商品分类</a>
+                        <div class="fl">
+                            <ul>
+                                <li><a href="#">全部商品</a></li>
+                                <li><a href="#">蛋糕冰激凌</a></li>
+                                <li><a href="#">创意冰激凌</a></li>
+                                <li><a href="#">原装冰激凌</a></li>
+                                <li><a href="#">手装冰激凌</a></li>
+                                <li><a href="#">组合套餐</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">明星产品</a></li>
+                    <li><a href="#">企业采购</a></li>
+                    <li><a href="#">品牌故事</a></li>
+                    <li><a href="#" class="cart">购物车</a></li>
                 </ul>
-                <form action="" class="forms">
-                    <input type="text" name="" class="txt" value="蛋糕"><input type="button" class="btn" value="搜索">
-                </form>
             </div>
         </div>
-    </header>
 
-    <!-- nav -->
-    <div class="nav">
-        <div class="nav_1">
-            <ul>
-                <li><a href="#">首页</a></li>
-                <li><a href="#">商品分类</a></li>
-                <li><a href="#">明星产品</a></li>
-                <li><a href="#">企业采购</a></li>
-                <li><a href="#">品牌故事</a></li>
-                <li><a href="#">购物车</a></li>
-            </ul>
+        <!-- 轮播图 -->
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+            <div class="swiper-slide"><a href="#"><img src="img/20200529190440_63427404.jpg" alt=""></a></div>
+            <div class="swiper-slide"><img src="img/20200620221642_31520693.jpg" alt=""></div>
+            <div class="swiper-slide"><img src="img/20200824155130_19809153.jpg" alt=""></div>
+            </div>
+            <div class="swiper-pagination"></div>
         </div>
-    </div>
-
-
-    <div class="swiper-container">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide"><a href="#"><img src="img/20200529190440_63427404.jpg" alt=""></a></div>
-          <div class="swiper-slide"><img src="img/20200620221642_31520693.jpg" alt=""></div>
-          <div class="swiper-slide"><img src="img/20200824155130_19809153.jpg" alt=""></div>
+        
+        <!-- 商品 -->
+        <div class="sp">
+            <div class="sp1">
+                <h2>明星产品</h2>
+                <ul class="sps">
+                    <li>
+                        <div class="s1"><img src="./img/CAKE101_210x210.jpg" alt="" >
+                            <div class="s2"><a href="#"><img src="./img/click-collection-img.jpg" alt=""></a></div>
+                        </div>
+                        <h4><a href="#">花意爱浓</a></h4>
+                        <div class="s3">
+                            <span class="s4"><i class="i-strong">&yen; </i>
+                            298<i> 
+                            /
+                            600克</i> </span>Blossom Of Love</div>
+                        <div class="s5">
+                            <a href="#">立即购买</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="s1"><img src="./img/CAKE104_210x210.jpg" alt="" >
+                            <div class="s2"><a href="#"><img src="./img/click-collection-img.jpg" alt=""></a></div>
+                        </div>
+                        <h4><a href="#">心花相印</a></h4>
+                        <div class="s3">
+                            <span class="s4"><i class="i-strong">&yen; </i>
+                            298<i> 
+                            /
+                            600克</i> </span>Blossom Of Love</div>
+                        <div class="s5">
+                            <a href="#">立即购买</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="s1"><img src="./img/CAKE004_210x210.jpg" alt="" >
+                            <div class="s2"><a href="#"><img src="./img/click-collection-img.jpg" alt=""></a></div>
+                        </div>
+                        <h4><a href="#">融情夏威夷</a></h4>
+                        <div class="s3">
+                            <span class="s4"><i class="i-strong">&yen; </i>
+                            298<i> 
+                            /
+                            600克</i> </span>Blossom Of Love</div>
+                        <div class="s5">
+                            <a href="#">立即购买</a>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="s1"><img src="./img/CAKE101_210x210.jpg" alt="" >
+                            <div class="s2"><a href="#"><img src="./img/click-collection-img.jpg" alt=""></a></div>
+                        </div>
+                        <h4><a href="#">玫瑰馨予</a></h4>
+                        <div class="s3">
+                            <span class="s4"><i class="i-strong">&yen; </i>
+                            298<i> 
+                            /
+                            600克</i> </span>Blossom Of Love</div>
+                        <div class="s5">
+                            <a href="#">立即购买</a>
+                        </div>
+                    </li>
+                </ul>
+            <!-- 甜蜜时刻 -->
+            <div class="tm">
+                <h2>甜蜜时刻</h2>
+            </div>
+            </div>
         </div>
-        <div class="swiper-pagination"></div>
-      </div>
-
-
-
-      
-    <!-- <script> 
-        var mySwiper = new Swiper('.swiper-container',{
-            pagination : '.swiper-pagination',
-            paginationElement : 'li',
-            autoplay : 500,
-        loop : true,
-        })
-    </script>    -->
+        <!-- 底部 -->
+        <footer>
+            
+        </footer>
 </body>
 </html>

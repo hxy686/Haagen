@@ -3,7 +3,9 @@ $(function(){
 	pagination : '.swiper-pagination',
 	paginationElement : 'li',
 	autoplay : 500,
-loop : true,
+	loop : true,
 })
+
+	
 })
 

@@ -14,6 +14,7 @@ a{
 }
 img{
 	border: none;
+	float: left;
 }
 
 @mixin size($width:100px,$height:100px){

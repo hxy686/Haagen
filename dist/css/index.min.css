@@ -19,6 +19,7 @@ a {
 
 img {
   border: none;
+  float: left;
 }
 
 header {
@@ -62,27 +63,177 @@ header {
 
 /* nav */
 .nav {
+  clear: both;
   width: 100%;
   height: 30px;
   background: #FADEB5;
-  overflow: hidden;
 }
 
 .nav .nav_1 {
-  width: 980px;
-  height: 30px;
+  background: 0;
+  border-left: 0 none;
+  clear: both;
+  height: 28px;
+  line-height: 28px;
   margin: 0 auto;
+  padding-top: 0;
+  position: relative;
+  width: 980px;
+  left: 16px;
+  font-size: 12px;
 }
 
 .nav .nav_1 ul li {
   float: left;
-  font-size: 14px;
-  width: 16%;
+  height: 28px;
+  width: 140px;
+  position: relative;
   text-align: center;
-  line-height: 30px;
   background: url("../img/3.jpg") no-repeat right;
 }
 
 .nav .nav_1 ul li a {
   color: #8C5B29;
+}
+
+.nav .nav_1 ul li .cart {
+  background: url("../img/shoppin-cart.jpg") no-repeat 16% 2px;
+  padding-left: 34px;
+  position: relative;
+}
+
+.nav .nav_1 .fl {
+  background: url("../img/nav-opacity-bg.png") repeat;
+  position: absolute;
+  top: 30px;
+  left: 0;
+  padding: 12px 0;
+  display: none;
+  width: 140px;
+  z-index: 999;
+}
+
+.nav .nav_1 .fl li {
+  background: none;
+}
+
+.nav .nav_1 ul #spfl:hover .fl {
+  display: block;
+}
+
+.sp {
+  width: 100%;
+  height: 1333px;
+}
+
+.sp .sp1 {
+  width: 980px;
+  height: 1293px;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+.sp .sp1 h2 {
+  font-family: 宋体;
+  font-size: 17px;
+  color: #b49759;
+  height: 24px;
+  line-height: 24px;
+  border-bottom: 1px solid #b49759;
+  padding-left: 10px;
+}
+
+.sp .sp1 .sps {
+  overflow: hidden;
+}
+
+.sp .sp1 .sps li {
+  width: 212px;
+  margin: 20px 15px;
+  float: left;
+  position: relative;
+}
+
+.sp .sp1 .sps li .s2 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 210px;
+  height: 210px;
+  background: rgba(255, 255, 255, 0);
+  border: 1px solid red;
+  display: none;
+  z-index: 1000;
+}
+
+.sp .sp1 .sps li .s1:hover .s2 {
+  display: block;
+}
+
+.sp .sp1 .sps li h4 {
+  clear: both;
+}
+
+.sp .sp1 .sps li h4 a {
+  display: block;
+  color: #545454;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: normal;
+  height: 24px;
+  line-height: 24px;
+  overflow: hidden;
+  padding-top: 10px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 215px;
+}
+
+.sp .sp1 .sps li .s3 {
+  display: block;
+  font-size: 13px;
+  color: #545454;
+  height: 20px;
+  line-height: 20px;
+  font-family: Arial;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 130px;
+  overflow: hidden;
+}
+
+.sp .sp1 .sps li .s4 {
+  color: #9e002b;
+  font-size: 14px;
+  position: absolute;
+  right: 0;
+  font-family: 'Arial';
+}
+
+.sp .sp1 .sps li .s5 {
+  background: url("../img/pro-list-add-buy.gif");
+  height: 31px;
+  line-height: 31px;
+  text-align: center;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.sp .sp1 .sps li .s5 a {
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.tm {
+  padding-top: 40px;
+}
+
+.tm h2 {
+  font-size: 17px;
+  color: #b49759;
+  height: 24px;
+  line-height: 24px;
+  border-bottom: 1px solid #b49759;
+  padding-left: 10px;
 }
