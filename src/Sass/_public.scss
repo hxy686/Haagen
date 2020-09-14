@@ -16,6 +16,179 @@ img{
 	border: none;
 	float: left;
 }
+//头部
+header{
+    width: 100%;
+    height: 120px;
+    background: #B61541;
+    float: left;
+}
+.head_1{
+    width: 980px;
+    height: 120px;
+    margin: 0 auto;
+}
+.head_2 {
+    margin-top: 5px;
+    width: 400px;
+    height: 26px;
+    float: right;
+}
+.uls li{
+    font-size: 13px;
+    float: left;
+}
+.uls li a{
+
+    color: white;
+    margin-right: 5px;
+}
+.uls li span{
+    color: white;
+    margin-right: 5px;
+}
+.head_2 .forms{
+    float: right;
+}
+
+
+
+/* nav */
+
+.nav{
+    clear: both;
+    width: 100%;
+    height: 30px;
+    background: #FADEB5;
+    // overflow: hidden;
+    .nav_1{
+        background: 0;
+        border-left: 0 none;
+        clear: both;
+        height: 28px;
+        line-height: 28px;
+        margin: 0 auto;
+        padding-top: 0;
+        position: relative;
+        width: 980px;
+        left: 16px;
+        font-size: 12px;
+        ul li{
+            float: left;
+            height: 28px;
+            width: 140px;
+            position: relative;
+            text-align: center;
+            background: url('../img/3.jpg') no-repeat right;
+            a{
+                color: #8C5B29;
+            }
+            .cart{
+                background: url("../img/shoppin-cart.jpg") no-repeat 16% 2px;
+                padding-left: 34px;
+                position: relative;
+            }
+        }
+        .fl{
+            background: url("../img/nav-opacity-bg.png") repeat;
+            position: absolute;
+            top: 30px;
+            left: 0;
+            padding: 12px 0;
+            display: none;
+            width: 140px;
+            z-index: 9999;
+            li{
+                background: none;
+            }
+        }
+        ul #spfl:hover .fl{
+            display: block;
+        }
+    }
+}
+//底部
+footer{
+    width: 100%;
+    min-width: 1000px;
+    .foot-t{
+        overflow: hidden;
+        background: url('../img/footer-buttomimg.jpg') no-repeat left bottom #b61541;
+        padding: 20px 0;
+        .wrap{
+            width: 1000px;
+            margin: auto;
+            overflow: hidden;
+            .fleft{
+                float: left;
+            }
+            .m-lefts{
+                margin-left: 160px;
+                .rows {
+                    margin-top: 5px;
+                    font-size: 14px;
+                    line-height: 24px;
+                    color: #FFF;
+                     span {
+                        margin-right: 42px;
+                    }
+                    
+                }
+            }
+            #book_email {
+                margin-left: 56px;
+            }
+            .rows.opra img {
+                margin-left: 10px;
+            }
+            .opra .order {
+                background: url('../img/emile-imgs.jpg') no-repeat;
+                height: 20px;
+                width: 88px;
+                vertical-align: bottom;
+                cursor: pointer;
+                border: none;
+            }
+        }
+    }
+    .foot-y{
+        background: url('../img/footer_bg.png') repeat-x left top;
+        padding: 18px 0 20px;
+        text-align: center;
+        color: #b49759;
+        font-size: 16px;
+        .wrap{
+            width: 1024px;
+            margin: auto;
+            position: relative;
+            .concat{
+                font-size: 14px;
+                margin-top: 15px;
+                color: #b49759;
+                a{
+                    margin: 0 25px;
+                    color: #b49759;
+                }
+            }
+            p{
+                font-size: 12px;
+                margin-top: 40px;
+                margin-left: 26px;
+                .sp{
+                    padding-left: 85px;
+                }
+            }
+            .industryremark {
+                position: absolute;
+                bottom: -3px;
+                left: 30px;
+            }
+            .industryremark.industryremark2 {
+                left: 486px;
+            }
+        }
+    }
+}
 
 @mixin size($width:100px,$height:100px){
 	width: $width;
