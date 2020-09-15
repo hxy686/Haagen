@@ -4,9 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="../css/jquery.idcode.min.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" href="../css/register.min.css">
     <script src="../js/jquery-1.12.4.min.js"></script>
     <script src="../js/register.min.js"></script>
+    <script src="../js/jquery.idcode.min.js"></script>
 </head>
 <body>
     <!-- 头部 -->
@@ -52,12 +54,50 @@
     <!-- 注册 -->
     <div class="box">
         <div class="zc">
-            <div class="r-box">
+            <div class="l-box">
                 <div class="txt">
                     <a href="#">哈根速递会员注册</a>
                     <span>></span>
                 </div>
                 <h1>会员注册</h1>
+                <form action="" class="fom">
+                    <div id="dd">
+                        <ul>
+                            <li>
+                                <label for=""><span>*</span>手机：</label>
+                                <input type="text" class="sjh" placeholder="请确保您的个人信息真实有效">
+                            </li>
+                            <li>
+                                <label for=""><span>*</span>验证码：</label>
+                                <input type="text" id ="Txtidcode" class ="txtVerification sjh"><span id="idcode"></span>
+                            </li>
+                            <li>
+                                <label for=""><span>*</span>短信验证码：</label>
+                                <input type="text" class="sjh" maxlength="4" style="width:120px">
+                                <input type="button" value="点击获取验证码" class="bt1">
+                            </li>
+                            <li>
+                                <label for=""></label>
+                                <div class="cwvip"><a href="#">成为会员</a></div>
+                            </li>
+                        </ul>
+                    </div>
+                </form>
+            </div>
+            <div class="r-box">
+                <div class="r-pox">
+                    <h2>已有账号,直接登录</h2>
+                    <div class="kb"></div>
+                    <div class="log-btn"><a href="#">登录</a></div>
+                    <div class="cop">
+                        <p>成为哈根速递会员您将获得官方品质保证，尽享<br>会员礼遇，及时获知哈根达斯最新商品信息</p>
+                        <h3>合作网站登录</h3>
+                        <a href="#"><span>支付宝</span></a>
+                        <a href="#"><span class="s2">新浪微博</span></a>
+                        <a href="#"><span class="s3">腾讯QQ</span></a>
+                    </div>
+                    <h4>游客登录</h4>
+                </div>
             </div>
         </div>
     </div>

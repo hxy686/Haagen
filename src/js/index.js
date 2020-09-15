@@ -4,8 +4,7 @@ $(function(){
 	paginationElement : 'li',
 	autoplay : 500,
 	loop : true,
-})
-
+	})
 	
 })
 

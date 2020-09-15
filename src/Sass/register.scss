@@ -14,7 +14,8 @@
         border: solid 1px #dedede;
         overflow: hidden;
         color: #545454;
-        .r-box{
+        .l-box{
+            float: left;
             margin: 12px 0 35px 14px;
             font-size: 13px;
             .txt a{
@@ -33,6 +34,121 @@
                 color: #8c5b29;
                 text-align: center;
                 margin: 5px auto 44px auto;
+            }
+            .fom{
+                width: 570px;
+                margin: 0 auto;
+                li{
+                    float: none;
+                    margin: 22px auto auto auto;
+                    position: relative;
+                    #idcode{
+                        margin-left: 8px;
+                    }
+                    .bt1{
+                        width: 110px;
+                        background: url('../img/verify2.jpg') no-repeat;
+                        color: #666;
+                        cursor: pointer;
+                        font-size: 12px;
+                        height: 19px;
+                        margin-left: 6px;
+                        text-align: center;
+                        border: none;
+                    }
+                    label{
+                        display: inline-block;
+                        width: 154px;
+                        height: 21px;
+                        text-align: right;
+                        padding-right: 12px;
+                        span{
+                            font-size: 12px;
+                            color: #d7003b;
+                            padding-left: 8px;
+                        }
+                    }
+                    .sjh{
+                        vertical-align: middle;
+                        width: 240px;
+                        height: 21px;
+                        padding: 4px 0 4px 7px;
+                        background: url('../img/inputbg.jpg') no-repeat;
+                        border: none;
+                     
+                    }
+                    .cwvip{
+                        display: inline-block;
+                        width: 124px;
+                        height: 30px;
+                        text-align: center;
+                        line-height: 30px;
+                        background: #9e002b;
+                        a{
+                            color: #fff;
+                        }
+                    }   
+                    
+                }
+                
+            }
+        }
+        .r-box{
+            border-left: solid 1px #dedede;
+            float: left;
+            .r-pox{
+                margin: 12px 0 35px 30px;
+                h2{
+                    font-size: 16px;
+                    color: #8c5b29;
+                    padding: 20px 0 0 0;
+                }
+                .kb{
+                    height: 30px;
+                }
+                .log-btn{
+                    width: 124px;
+                    height: 30px;
+                    text-align: center;
+                    line-height: 30px;
+                    background: #9e002b;
+                    margin: 0;
+                    a{
+                        color: #fff;
+                    }
+                }
+                .cop{
+                    margin: 20px auto auto auto;
+                   p{
+                       font-family: 宋体;
+                       font-size: 13px;
+                   }
+                   h3{
+                    color: #8c5b29;
+                    font-size: 16px;
+                    padding-top: 42px;
+                   }
+                   a{   
+                       display:inline-block;
+                        color: #000;
+                        margin: 8px 6px 0;
+                   }
+                   a span{
+                        height: 17px;
+                        line-height: 17px;
+                        background: url('../img/coop-icon.png') no-repeat;
+                        font-size: 12px;
+                        padding-left: 22px;
+                        background-position: 0 0;
+                   }
+                   .s2{
+                    background-position: -88px 0;
+                   }
+                   .s3{
+                    background-position: -190px 0;
+                   }
+                   
+                }
             }
         }
     }
