@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>注册</title>
+    <title>登录</title>
+    <link rel="stylesheet" href="../css/login.min.css">
     <link href="../css/jquery.idcode.min.css" type="text/css" rel="stylesheet">
-    <link rel="stylesheet" href="../css/register.min.css">
     <script src="../js/jquery-1.12.4.min.js"></script>
-    <script src="../js/register.min.js"></script>
+    <script src="../js/login.min.js"></script>
     <script src="../js/jquery.idcode.min.js"></script>
+
 </head>
 <body>
     <!-- 头部 -->
@@ -53,43 +54,47 @@
         </div>
     </div>
     <!-- 注册 -->
+    <div class="tou">哈根速递会员及哈根达斯俱乐部会员均可登录</div>
     <div class="box">
         <div class="zc">
             <div class="l-box">
-                <div class="txt">
-                    <a href="#">哈根速递会员注册</a>
-                    <span>></span>
+                <div class="l-pox">
+                    <a href="#" class="l-a">账号密码登录</a>
+                    <a href="#" class="r-a">短信验证码登录</a>
                 </div>
-                <h1>会员注册</h1>
-                <form action="" class="fom">
-                    <div id="dd">
+                <div class="l-pox2">
+                    <div class="l-pox3">
                         <ul>
                             <li>
-                                <label for=""><span>*</span>手机：</label>
-                                <input type="text" class="sjh" placeholder="请确保您的个人信息真实有效">
+                                <label for="">手机：</label>
+                                <input type="text" class="kk">
                             </li>
                             <li>
-                                <label for=""><span>*</span>验证码：</label>
-                                <input type="text" id ="Txtidcode" class ="txtVerification sjh"><span id="idcode"></span>
+                                <label for="">密码：</label>
+                                <input type="password" class="kk">
                             </li>
                             <li>
-                                <label for=""><span>*</span>短信验证码：</label>
-                                <input type="text" class="sjh" maxlength="4" style="width:120px">
-                                <input type="button" value="点击获取验证码" class="bt1">
+                                <label for="">验证码：</label>
+                                <input type="text" id ="Txtidcode" class ="txtVerification kk"><span id="idcode"></span>
                             </li>
                             <li>
                                 <label for=""></label>
-                                <div class="cwvip"><a href="#">成为会员</a></div>
+                                <div class="dl-btn"><a href="#">登录</a></div>
+                            </li>
+                            <li>
+                                <p>
+                                    注册即同意<a href="/helpcenter/service-reg.htm">《哈根速递购物协议》</a><br>哈根速递的会员同时也是哈根达斯俱乐部的会员
+                                </p>
                             </li>
                         </ul>
                     </div>
-                </form>
+                </div>
             </div>
             <div class="r-box">
                 <div class="r-pox">
-                    <h2>已有账号,直接登录</h2>
+                    <h2>还不是注册用户</h2>
                     <div class="kb"></div>
-                    <div class="log-btn"><a href="#">登录</a></div>
+                    <div class="log-btn"><a href="#">新用户注册</a></div>
                     <div class="cop">
                         <p>成为哈根速递会员您将获得官方品质保证，尽享<br>会员礼遇，及时获知哈根达斯最新商品信息</p>
                         <h3>合作网站登录</h3>

@@ -1,6 +1,14 @@
 @import 'public';
 
 // 注册
+.tou{
+    position: relative;
+    top: 120px;
+    width: 980px;
+    margin: 0 auto;
+    color: #752323;
+    z-index: 100;
+}
 .box{
     width: 100%;
      background: url('../img/background-imgs.jpg')  no-repeat center top;
@@ -16,45 +24,42 @@
         color: #545454;
         .l-box{
             float: left;
-            margin: 12px 0 35px 14px;
-            font-size: 13px;
-            .txt a{
-                color: #9e002b;
-                font-family: '宋体';
-                font-weight: bold;
+            .l-pox{
+                height: 37px;
+                a{
+                    display: block;
+                    width: 329px;
+                    float: left;
+                    height: 37px;
+                    text-align: center;
+                    color: #aaa;
+                    font-family: '宋体';
+                    font-size: 16px;
+                    font-weight: bold;
+                    background: #fff;
+                    border-bottom: 1px solid #dedede;
+                    border-right: 1px solid #dedede;
+                    line-height: 37px;
+                }
+                .l-a{
+                    background-image: url('../img/red_line.jpg');
+                    background-repeat: no-repeat;
+                    background-position: top center;
+                    background-color: #f9f6f1;
+                    border-bottom: 0;
+                    color: #8c5b29
+                }
             }
-            .txt span{
-                margin-left: 14px;
-                margin-right: 18px;
-            }
-            h1{
-                font-size: 16px;
-                font-family: '宋体';
-                font-weight: bold;
-                color: #8c5b29;
-                text-align: center;
-                margin: 5px auto 44px auto;
-            }
-            .fom{
-                width: 570px;
-                margin: 0 auto;
-                li{
-                    float: none;
-                    margin: 22px auto auto auto;
-                    position: relative;
-                    #idcode{
-                        margin-left: 8px;
-                    }
-                    .bt1{
-                        width: 110px;
-                        background: url('../img/verify2.jpg') no-repeat;
-                        color: #666;
-                        cursor: pointer;
-                        font-size: 12px;
-                        height: 19px;
-                        margin-left: 6px;
-                        text-align: center;
-                        border: none;
+            .l-pox2{
+                margin: 60px 0 60px 70px;
+                font-size: 13px;
+                .l-pox3{
+                    width: 570px;
+                    margin: 0 auto;
+                    li{
+                        float: none;
+                        margin: 22px auto auto auto;
+                        position: relative;
                     }
                     label{
                         display: inline-block;
@@ -62,22 +67,16 @@
                         height: 21px;
                         text-align: right;
                         padding-right: 12px;
-                        span{
-                            font-size: 12px;
-                            color: #d7003b;
-                            padding-left: 8px;
-                        }
                     }
-                    .sjh{
+                    .kk{
                         vertical-align: middle;
                         width: 240px;
                         height: 21px;
                         padding: 4px 0 4px 7px;
                         background: url('../img/inputbg.jpg') no-repeat;
                         border: none;
-                     
                     }
-                    .cwvip{
+                    .dl-btn{
                         display: inline-block;
                         width: 124px;
                         height: 30px;
@@ -87,10 +86,14 @@
                         a{
                             color: #fff;
                         }
-                    }   
-                    
+                    }
+                    p{
+                        padding-left: 162px;
+                        a{
+                            color: #9e002b;
+                        }
+                    }
                 }
-                
             }
         }
         .r-box{

@@ -13,8 +13,8 @@ a{
 	text-decoration: none;
 }
 img{
-	border: none;
-	float: left;
+    border: none;
+    float: left;
 }
 //头部
 header{
@@ -92,9 +92,9 @@ header{
         .fl{
             background: url("../img/nav-opacity-bg.png") repeat;
             position: absolute;
-            top: 30px;
+            top: 0px;
             left: 0;
-            padding: 12px 0;
+            padding: 0 0;
             display: none;
             width: 140px;
             z-index: 9999;
@@ -180,8 +180,8 @@ footer{
             }
             .industryremark {
                 position: absolute;
-                bottom: -3px;
-                left: 30px;
+                bottom: 1px;
+                left: 24px;
             }
             .industryremark.industryremark2 {
                 left: 486px;
