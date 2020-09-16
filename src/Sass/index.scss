@@ -1,9 +1,11 @@
 @import "public";
 // 商品
 .sp{
-    @include size(100%,1333px);
+    width: 100%;
+    // @include size(100%,1333px);
     .sp1{
-        @include size(980px,1293px);
+        // @include size(980px,1293px);
+        width: 980px;
         margin: 0 auto;
         padding-top: 40px;
         h2{
@@ -104,3 +106,21 @@
     }
 }
 
+
+
+// 手风琴
+.dh ul{position: relative;overflow: hidden;width:100%;height: 306px;margin: 70px ;}
+.dh ul li{float: left;width: 200px;overflow: hidden;height: 100%;position: relative;cursor: pointer;}
+.dh ul li a{display: block;width: 100%;height: 100%;}
+.dh ul li .layer{position: absolute;bottom: 0;left: 0;width: 100%;background:rgba(27,29,36,0.75);height: 100%;}
+.dh ul li .layer .p1{position: absolute;bottom: 5px;left: 10px;}
+.dh ul li .layer .p2{position: absolute;bottom: 5px;right: -200%;}
+.dh ul li .layer .p2 b,.dh ul li .layer .p2 span{display: block;font-weight: bold;font-size: 20px;}
+.dh ul li .layer .p1 b,.dh ul li .layer .p1 span{display: block;font-weight: bold;font-size: 14px;}
+
+// .dh ul li.curr{}
+/* .dh ul li.curr .layer .p1{left: -200%;}
+.dh ul li.curr .layer .p2{left: 10px;} */
+
+.col1{color: #00A39A;}
+.col2{color: #fff;}
