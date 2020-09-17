@@ -1,13 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>商品页</title>
     <link rel="stylesheet" href="../css/goods.min.css">
+    <link rel="stylesheet" href="../css/jquery.spinner.min.css">
     <script src="../js/jquery-1.12.4.min.js"></script>
+    <script src="../js/goods.min.js"></script>
+    <script type="text/javascript" src="../js/jquery.mlens-1.0.min.js"></script>
+    <script src="../js/jquery.spinner.min.js"></script>
 </head>
 <body>
     
+        <!-- 头部 -->
+        <header>
+            <div class="head_1">
+                <img src="../img/1.png" alt="">
+                <div class="head_2">
+                    <ul class="uls">
+                        <li><a href="#">登录</a><span>/</span><a href="#">注册</a></li>
+                        <li><span>|</span><a href="#">收藏本站</a></li>
+                        <li><span>|</span><a href="#">官方网站</a></li>
+                    </ul>
+                    <form action="" class="forms">
+                        <input type="text" name="" class="txt" value="蛋糕"><input type="button" class="btn" value="搜索">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- nav -->
+        <div class="nav">
+            <div class="nav_1">
+                <ul>
+                    <li><a href="#">首页</a></li>
+                    <li id="spfl"><a href="#">商品分类</a>
+                        <div class="fl">
+                            <ul>
+                                <li><a href="#">商品分类</a></li>
+                                <li><a href="#">全部商品</a></li>
+                                <li><a href="#">蛋糕冰激凌</a></li>
+                                <li><a href="#">创意冰激凌</a></li>
+                                <li><a href="#">原装冰激凌</a></li>
+                                <li><a href="#">手装冰激凌</a></li>
+                                <li><a href="#">组合套餐</a></li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li><a href="#">明星产品</a></li>
+                    <li><a href="#">企业采购</a></li>
+                    <li><a href="#">品牌故事</a></li>
+                    <li><a href="#" class="cart">购物车</a></li>
+                </ul>
+            </div>
+        </div>
+        <!-- 商品详情 -->
+        <div class="box">
+            <div class="pox">
+                <div class="pox-o">
+                    <div class="pox-t">
+                        <a href="#">首页</a>
+                        >
+                        <a href="#">蛋糕冰激凌</a>
+                        >
+                        <a href="#">花意爱浓</a>
+                    </div>
+                    <div class="pox-ts">
+                        <div class="pox-left">
+                            <img id="green_monster" src="../img/CAKE101_500x500.jpg" alt="green monster graffiti by Kotzian" data-big="../img/CAKE101_800x800.jpg" />
+                        </div>
+                        <div class="pox-right">
+                            <h1>花意爱浓</h1>
+                            <p class="p1">Blossom Of Love</p>
+                            <p class="p2">盛开的红色花朵，酸甜的草莓口味，配上香醇奶油，这一刻“莓”好食光带着祝福与真心，赠与挚爱的人。</p>
+                            <dl>
+                                <dt><p>口味：香草味；草莓</p></dt>
+                                <dt class="dt_1">
+                                    <div class="jg">价格：</div>
+                                    <div class="jgs">
+                                        <i class="i1">¥</i>
+                                        <span class="sp1">298</span>
+                                    </div>
+                                </dt>
+                                <dt class="dt_1">
+                                    <div class="gg">规格：</div>
+                                    <div class="kg">
+                                        <p>600克2-4人左右</p>
+                                    </div>
+                                </dt>
+                                <dt class="dt_1 dt_2">
+                                    <div class="sl">数量：</div>
+                                    <p><input type="text" class="spinnerExample"/ "></p>
+                                </dt>
+                                <dt class="dt_1">
+                                    <div class="btns">
+                                        <ul>
+                                            <li><div class="gm">立即订购</div></li>
+                                            <li><div class="gwc">加入购物车</div></li>
+                                        </ul>
+                                    </div>
+                                </dt>
+                                <dt class="dt_1">
+                                    <div class="fx">
+                                        <div class="bshare-custom"><a title="分享到QQ空间" class="bshare-qzone"></a><a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到人人网" class="bshare-renren"></a><a title="分享到腾讯微博" class="bshare-qqmb"></a><a title="分享到网易微博" class="bshare-neteasemb"></a><a title="更多平台" class="bshare-more bshare-more-icon more-style-addthis"></a><span class="BSHARE_COUNT bshare-share-count">0</span></div><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/button.js#style=-1&amp;uuid=&amp;pophcol=1&amp;lang=zh"></script><a class="bshareDiv" onclick="javascript:return false;"></a><script type="text/javascript" charset="utf-8" src="http://static.bshare.cn/b/bshareC0.js"></script>
+                                    </div>
+                                </dt>
+                            </dl>
+                        </div>
+                    </div>
+                </div>
+                <div class="ms">
+                    <h2>商品描述</h2>
+                    <img src="../img/_1-1.jpg" alt="">
+                </div>
+            </div>
+            
+        </div>
+        <!-- 底部 -->
+        <footer>
+            <div class="foot-t">
+                <div class="wrap">
+                    <div class="fleft">
+                        <img src="../img/footer-logins.jpg" alt="">
+                    </div>
+                    <div class="fleft m-lefts">
+                        <div class="rows atte">
+                            <span>关注我们</span>
+                        第一时间获得哈根速递最新商品及活动信息
+                    </div>
+                    <div class="rows opra">
+                        <a href="http://weibo.com/haagendazschina"  target="_blank" ><img src="http://img.4009870870.com/images/xle.gif" /></a>
+
+                        <input class="email def" type="text" id="book_email" placeholder="请输入邮箱地址" />
+                        <input id="orderEmail" class="order" type="button" value="" />
+                    </div>
+                    </div>
+                </div>
+            </div>
+            <div class="foot-y">
+                <div class="wrap">
+                    <div class="rows concat">
+                        <a href="#">网站导航</a> |
+                        <a href="#">会员服务</a> |
+                        <a href="#">常见问题</a> |
+                        <a href="#">隐私政策</a> |
+                        <a href="#">联系我们</a> |
+                        <a href="#">法律声明</a> |
+                        <a href="#">公司证件</a>
+                    </div>
+                    <p><span>版权归通用磨坊贸易（上海）有限公司所有 &nbsp;&nbsp;&nbsp;&nbsp; 沪ICP备11032068号-4</span><span class="sp"  onclick="jumpRegisterSystemInfo()">
+                        沪公网安备 31010502000187号
+                    </span>
+                    <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;自建食品交易网站备案号：沪网食备B0014号</span>
+                    </p>
+                    <div class="industryremark">
+                        <a href="http://www.sgs.gov.cn/lz/licenseLink.do?method=licenceView&entyId=2013112515143533" target="_blank">
+                            <img border="0" src="http://img.4009870870.com/images/industryremark_l.png"></a>
+                    </div>
+                    <div class="industryremark industryremark2">
+                        <img border="0" src="http://img.4009870870.com/images/wangan.png"></a>
+                    </div>
+            </div>
+        </footer>
 </body>
 </html>
