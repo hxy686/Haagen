@@ -1,1 +1,48 @@
 @import 'public';
+.pox-t{
+    padding-top: 28px;
+    .top{
+        width: 619px;
+        margin: 0 auto 50px;
+        background: url(../img/step_allimg.jpg) no-repeat left top;
+        height: 80px;
+    }
+    .btm{
+        border: 1px solid #cfcecb;
+        background: #fff;
+        padding-top: 15px;
+        .btms{
+            width: 350px;
+            margin: 0 auto;
+            overflow: hidden;
+            .imgs{
+                overflow: hidden;
+                margin: 24px 0;
+                float: left;
+                p{
+                    color: #cfcecb;
+                    font-size: 15px;
+                    line-height: 68px;
+                    float: left;
+                }
+            }
+        }
+    }
+    .fh{
+        .fh_1{
+            background: #b61541;
+            border: 1px solid #c64669;
+            height: 28px;
+            width: 100px;
+            text-align: center;
+            line-height: 26px;
+            margin: 20px auto 0;
+            a{
+                color: #FFF;
+                font-size: 12px;
+                font-weight: bold;
+                display: block;
+            }
+        }
+    }
+}

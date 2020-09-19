@@ -11,4 +11,13 @@ $(function(){
         });
     });
     $('.spinnerExample').spinner({});
+    
+
+
+    let $gwc = $('.gwc');
+    // init();
+    $gwc.click(function(){
+        let good_id =$(this).parent().text();
+        console.log(good_id)
+    })
 })

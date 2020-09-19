@@ -191,6 +191,19 @@ footer{
     }
 }
 
+.box{
+    overflow: hidden;
+    position: relative;
+    z-index: 9;
+    background: url('../img/background-imgs.jpg') no-repeat center top;
+    padding: 20px 0;
+    .pox{
+        width: 980px;
+        margin: 0 auto;
+        position: relative;
+    }
+}
+
 @mixin size($width:100px,$height:100px){
 	width: $width;
 	height: $height;

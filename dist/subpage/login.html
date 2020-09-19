@@ -9,6 +9,8 @@
     <script src="../js/jquery-1.12.4.min.js"></script>
     <script src="../js/login.min.js"></script>
     <script src="../js/jquery.idcode.min.js"></script>
+    <script src="../js/jquery.cookie.min.js"></script>
+    <script src="../js/public.min.js"></script>
 
 </head>
 <body>
@@ -18,7 +20,7 @@
             <img src="../img/1.png" alt="">
             <div class="head_2">
                 <ul class="uls">
-                    <li><a href="#">登录</a><span>/</span><a href="#">注册</a></li>
+                    <li><a href="#">登录</a><span>/</span><a href="../subpage/register.html">注册</a></li>
                     <li><span>|</span><a href="#">收藏本站</a></li>
                     <li><span>|</span><a href="#">官方网站</a></li>
                 </ul>
@@ -32,12 +34,12 @@
     <div class="nav">
         <div class="nav_1">
             <ul>
-                <li><a href="#">首页</a></li>
+                <li><a href="../index.html">首页</a></li>
                 <li id="spfl"><a href="#">商品分类</a>
                     <div class="fl">
                         <ul>
                             <li><a href="#">商品分类</a></li>
-                            <li><a href="#">全部商品</a></li>
+                            <li><a href="../subpage/detail.html">全部商品</a></li>
                             <li><a href="#">蛋糕冰激凌</a></li>
                             <li><a href="#">创意冰激凌</a></li>
                             <li><a href="#">原装冰激凌</a></li>
@@ -49,7 +51,7 @@
                 <li><a href="#">明星产品</a></li>
                 <li><a href="#">企业采购</a></li>
                 <li><a href="#">品牌故事</a></li>
-                <li><a href="#" class="cart">购物车</a></li>
+                <li><a href="./carts.html" class="cart">购物车</a></li>
             </ul>
         </div>
     </div>
@@ -66,12 +68,12 @@
                     <div class="l-pox3">
                         <ul>
                             <li>
-                                <label for="">手机：</label>
-                                <input type="text" class="kk">
+                                <label for="" >手机：</label>
+                                <input type="text" class="kk" id="uname">
                             </li>
                             <li>
                                 <label for="">密码：</label>
-                                <input type="password" class="kk">
+                                <input type="password" class="kk" id="upwd">
                             </li>
                             <li>
                                 <label for="">验证码：</label>
@@ -79,7 +81,7 @@
                             </li>
                             <li>
                                 <label for=""></label>
-                                <div class="dl-btn"><a href="#">登录</a></div>
+                                <div class="dl-btn"><a href="#" class="sub">登录</a></div>
                             </li>
                             <li>
                                 <p>
@@ -94,7 +96,7 @@
                 <div class="r-pox">
                     <h2>还不是注册用户</h2>
                     <div class="kb"></div>
-                    <div class="log-btn"><a href="#">新用户注册</a></div>
+                    <div class="log-btn"><a href="./register.html">新用户注册</a></div>
                     <div class="cop">
                         <p>成为哈根速递会员您将获得官方品质保证，尽享<br>会员礼遇，及时获知哈根达斯最新商品信息</p>
                         <h3>合作网站登录</h3>
